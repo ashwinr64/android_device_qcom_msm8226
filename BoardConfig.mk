@@ -12,8 +12,8 @@ USE_CAMERA_STUB := true
 
 TARGET_USES_AOSP := false
 # Compile with msm kernel
-TARGET_COMPILE_WITH_MSM_KERNEL := true
-TARGET_HAS_QC_KERNEL_SOURCE := true
+#TARGET_COMPILE_WITH_MSM_KERNEL := true
+#TARGET_HAS_QC_KERNEL_SOURCE := true
 
 -include $(QCPATH)/common/msm8226/BoardConfigVendor.mk
 
